@@ -12,6 +12,5 @@ var compose = function(functions) {
     }
 };
 
-const functions = [x => x + 1, x => x * x, x => 2 * x];
-const x = 4
+const functions = [x => x + 1, x => x * x, x => 2 * x], x = 4
 console.log(compose(functions)(x))// Saída: 65

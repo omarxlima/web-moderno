@@ -11,8 +11,7 @@ var reduce = function(nums, fn, init) {
     return init;
 };
 
-const nums = [1,2,3,4,];
-const fn = function sum(accum, curr) {return accum + curr};
+const nums = [1,2,3,4,],fn = function sum(accum, curr) {return accum + curr};
 const init = 0;
 
 const result = reduce(nums, fn, init)
